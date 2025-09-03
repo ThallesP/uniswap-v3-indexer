@@ -125,6 +125,6 @@ UniswapV3Pool.Collect.handlerWithLoader({
         context.Token.set(token1);
         context.Pool.set(pool);
         context.Factory.set(factory);
-        context.Collect.set(collect);
+        //context.Collect.set(collect);
     },
 });
