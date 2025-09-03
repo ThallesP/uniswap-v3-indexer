@@ -250,7 +250,7 @@ UniswapV3Pool.Swap.handlerWithLoader({
         token1HourData.untrackedVolumeUSD = token1HourData.untrackedVolumeUSD.plus(amountTotalUSDTracked);
         token1HourData.feesUSD = token1HourData.feesUSD.plus(feesUSD);
 
-        context.Swap.set(swap);
+        //context.Swap.set(swap);
         context.TokenDayData.set(token0DayData);
         context.TokenDayData.set(token1DayData);
         context.UniswapDayData.set(uniswapDayData);
