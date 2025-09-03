@@ -178,7 +178,7 @@ UniswapV3Pool.Mint.handlerWithLoader({
         context.Token.set(token1);
         context.Pool.set(pool);
         context.Factory.set(factory);
-        context.Mint.set(mint);
+        //context.Mint.set(mint);
     }
 });
 
