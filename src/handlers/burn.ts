@@ -128,6 +128,6 @@ UniswapV3Pool.Burn.handlerWithLoader({
         context.Token.set(token1);
         context.Pool.set(pool);
         context.Factory.set(factory);
-        context.Burn.set(burn);
+        //context.Burn.set(burn);
     }
 });
